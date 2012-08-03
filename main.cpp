@@ -13,7 +13,9 @@ int main()
 
   int n;
   cin >> n;
-  cout << "fib(" << n << ") = " << fib(n) << endl;
+
+  for(int i = 1; i <= n; i++)
+    cout << "fib(" << i << ") = " << fib(i) << endl;
 
   return 0;
 }
