@@ -11,5 +11,9 @@ int main()
 {
   cout << "Hello, World!" << endl;
 
+  int n;
+  cin >> n;
+  cout << "fib(" << n << ") = " << fib(n) << endl;
+
   return 0;
 }
